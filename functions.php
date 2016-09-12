@@ -28,7 +28,7 @@
 	    wp_enqueue_script('modernizr');
 		
 	    wp_deregister_script('jquery');
-	    wp_register_script('jquery', get_bloginfo('template_directory') . "/js/libs/jquery-1.8.0.min.js");
+	    wp_register_script('jquery', get_bloginfo('template_directory') . "/js/libs/jquery-3.1.0.min.js");
 	    wp_enqueue_script('jquery');
 	       
 	    wp_deregister_script('jquery-easing');
