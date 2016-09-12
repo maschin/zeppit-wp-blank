@@ -1,32 +1,12 @@
 /*   
 Theme Name:  Theme
 Description: This is 
-Author: Michael Maschinov
+Author: Michael Maschinoff
 Author URI: http://www.zeppit.pro
 Version: 1
 */
 
 /* Design & Code by: www.zeppit.pro */
-@font-face {
-    font-family: 'pfagorasanspro-regular';
-    src: url('css/type/pfagorasanspro-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'pfagorasanspro-thin';
-    src: url('css/type/pfagorasanspro-thin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'pfagorasanspro-bold';
-    src: url('css/type/pfagorasanspro-bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
 /* HTML5 element display */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
