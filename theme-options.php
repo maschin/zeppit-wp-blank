@@ -1,6 +1,6 @@
 <?php
     $themename = "Blank";
-    $shortname = "cus";
+    $shortname = "zeppit";
     $options = array (
         array(    "name" => "General options",
         "type" => "title"),
@@ -33,7 +33,7 @@
         array(    "type" => "close"),
     );
 
-    function cus_add_admin() {
+    function zeppit_add_admin() {
         global $themename, $shortname, $options;
         if ( $_GET['page'] == basename(__FILE__) ) {
             if ( 'save' == $_REQUEST['action'] )     {
@@ -59,7 +59,7 @@
     /**
      *Render settings page
      */
-    function cus_admin() {
+    function zeppit_admin() {
     
         global $themename, $shortname, $options;
     
@@ -147,7 +147,7 @@
     <?php
     }
     
-    function cus_wp_head(){
+    function zeppit_wp_head(){
         global $options;
 
 	foreach ( $options as $value ) {
